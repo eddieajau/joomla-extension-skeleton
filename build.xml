@@ -88,6 +88,7 @@
 		<gitcommit repository="." message="Tagging release `${version}`." allFiles="true" />
 		<gittag repository="." name="${version}" annotate="true" message="${version}" />
 		<!--<gitpush repository="." all="true" />-->
+		<echo>Push tags manually with `$ git push --tags origin`.</echo>
 	</target>
 
 	<target name="set-author" description="Sets the &lt;author&gt; tag in all XML files.">
@@ -165,7 +166,6 @@
 		<echo message="Replacing '${tag}' tag with '${tagValue}'."/>
 		<reflexive>
 			<fileset dir=".">
-				<include pattern="manifest.xml" />
 				<include pattern="src/**/*.xml" />
 			</fileset>
 			<filterchain>
