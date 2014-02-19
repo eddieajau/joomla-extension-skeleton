@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later.</license>
 	<authorEmail>eddie.andrew@gmail.com</authorEmail>
 	<authorUrl>http://www.theartofjoomla.com</authorUrl>
-	<version>3.0.0</version>
+	<version>3.0.1</version>
 	<description>COM_SKELETON_XML_DESCRIPTION</description>
 
 	<files folder="site">

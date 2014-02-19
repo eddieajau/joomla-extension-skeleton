@@ -5,6 +5,20 @@
 		<description>A soup-to-nuts extension package for testing and training.</description>
 		<element>pkg_skeleton</element>
 		<type>package</type>
+		<version>3.0.1</version>
+		<infourl title="Joomla Exetension Skeleton">
+			https://github.com/eddieajau/joomla-extension-skeleton
+		</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/eddieajau/joomla-extension-skeleton/releases/download/3.0.1/pkg_skeleton_3.0.0.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.0" />
+	</update>
+	<update>
+		<name>Joomla Extension Skeleton Package</name>
+		<description>A soup-to-nuts extension package for testing and training.</description>
+		<element>pkg_skeleton</element>
+		<type>package</type>
 		<version>3.0.0</version>
 		<infourl title="Joomla Exetension Skeleton">
 			https://github.com/eddieajau/joomla-extension-skeleton
