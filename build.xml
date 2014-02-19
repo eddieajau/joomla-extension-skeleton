@@ -84,9 +84,9 @@
 		</reflexive>
 	</target>
 
-	<target name="tag-release" description="Tags the repository using git.">
-		<gitcommit repository="." message="Tagging release v${version}" allFiles="true" />
-		<gittag repository="." name="v${version}" annotate="true" message="v${version}" />
+	<target name="tag" description="Tags the repository using git.">
+		<gitcommit repository="." message="Tagging release `${version}`." allFiles="true" />
+		<gittag repository="." name="${version}" annotate="true" message="${version}" />
 		<!--<gitpush repository="." all="true" />-->
 	</target>
 
