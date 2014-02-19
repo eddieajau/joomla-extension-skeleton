@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+	<name>pkg_skeleton</name>
+	<packagename>skeleton</packagename>
+	<creationDate>19 February 2014</creationDate>
+	<packager>Andrew Eddie</packager>
+	<copyright>(C) 2014 Andrew Eddie. All rights reserved.</copyright>
+	<packageremail>eddie.andrew@gmail.com</packageremail>
+	<packagerurl>http://www.theartofjoomla.com</packagerurl>
+	<author>Andrew Eddie</author>
+	<authorEmail>eddie.andrew@gmail.com</authorEmail>
+	<authorUrl>http://www.theartofjoomla.com</authorUrl>
+	<version>3.0.0</version>
+	<license>GNU General Public License version 2 or later.</license>
+	<description>PKG_SKELETON_XML_DESCRIPTION</description>
+
+	<files>
+		<!-- The id for each extension is the element stored in the DB -->
+		<file type="component" id="com_skeleton">com_skeleton.zip</file>
+		<file type="module" id="mod_skeleton" client="site">mod_skeleton_site.zip</file>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB.pkg_skeleton.sys.ini</language>
+	</languages>
+
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" name="Skeleton Update Site">https://github.com/eddieajau/joomla-extension-skeleton/master/manifest.xml</server>
+	</updateservers>
+</extension>
