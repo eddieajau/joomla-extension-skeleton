@@ -1,0 +1,11 @@
+pygments: true
+exclude:
+- build
+- releases
+- src
+- build.ini
+- build.xml
+- LICENSE
+- manifest.xml
+- README.md
+markdown: rdiscount
