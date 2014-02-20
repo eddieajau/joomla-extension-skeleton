@@ -1,3 +1,7 @@
+---
+layout: main
+---
+
 # Releasing
 
 * Update the version number in `build.ini`.
